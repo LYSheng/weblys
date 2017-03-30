@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<div class="box">发送成功，<span style="color:red">3</span>s后跳转到登录页面</div>
+<script>
+    var spans=document.querySelector("span");
+    // spans.innerHTML=""
+//    var a=3;
+    var t=setTimeout(function(){
+//        a--
+//        spans.innerHTML=a;
+        location.href='http://localhost/webabout/index.php'
+    },3000)
+</script>
+</body>
+</html>
